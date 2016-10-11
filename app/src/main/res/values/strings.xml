@@ -1,0 +1,46 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">KnowMyChicago</string>
+    <string name="appInfo">Hello,\n\nThis is an educational quiz app for all things Chicago. This app is set up like an ordinary quiz. There will be 10 questions and once you are finish, it will calculate your grade for this quiz.  </string>
+    <string name="applicantName"> Name: <xliff:g example="Amy" id="applicantName">%s </xliff:g> </string>
+
+
+    <string name="question1">The name \"Chicago\"  comes from what Algonquin word? </string>
+    <string name="info1">Chicago in Algonquin is “Chicagou” or “Shikaakwa,”  which translates to “onion field” or “wild garlic". </string>
+
+    <string name="question2">Planning on a road trip? Which famous route starts in Chicago? </string>
+    <string name="info2">The "Historic Route 66" begins in Chicago at Grant Park on Adams Street in front of the Art Institute of Chicago.</string>
+
+    <string name="question3">The Field Museum owns the world\'s most complete Tyrannosaurus Rex skeleton. It\'s name is.. </string>
+    <string name="info3">Susan "Sue" Hendrickson founded the T-Rex in 1990, due to it\'s perfect fossil condition, it was auctioned off for $7.6 million!</string>
+
+    <string name="question4">In what year did the first Ferris wheel made its debut in Chicago? </string>
+    <string name="info4">In 1893 the World\'s Columbian Exposition introduced the ferris wheel. Today, Navy Pier is home to a 15-story Ferris wheel, modeled after the original one.</string>
+
+    <string name="question5">When taking the city\'s rapid-transit rail system, it is called the.. </string>
+    <string name="info5">Chicago’s downtown area is known as “The Loop.” The nickname refers to the area encircled by the elevated (‘L’) train tracks.</string>
+
+    <string name="question6">During the depression-era, the infamous bank robber John Dillinger was gunned down at which neighborhood area? </string>
+    <string name="info6">On July, 1934 Dillinger went to see the Clark Gable crime film “Manhattan Melodrama” at Chicago\'s Biograph Theater before gunned down. </string>
+
+    <string name="question7">When german immigrant Bavarian Anton Feuchtwanger couldn\’t convince fairgoers to eat his sausages, he served them in a bun. The hot dog was born in what year?</string>
+    <string name="info7">A well known tradition for locals in Chicago is to -NOT- add any ketchup to their hot dogs.</string>
+
+    <string name="question8">The Willis Tower is formerly known as the..</string>
+    <string name="info8">The Willis Tower (formerly the Sears Tower) is the tallest building in the Western Hemisphere at 110 stories high! From the skydeck you can see Indiana, Illinois, Michigan and Wisconsin.</string>
+
+
+    <string name="question9">In the 1930, James Alexander Dewar invented this golden sponge cake with creamy filling. </string>
+    <string name="info9">Having seen a billboard for a shoe company called the "Twinkle Toe Shoe Co." he was inspired to call his shortcake invention a "Twinkie".</string>
+
+
+    <string name="question10">Chicago\’s nicknames includes (check all that applies): </string>
+    <string name="info10">So many nicknames!</string>
+    <string name="title_activity_question2">Map</string>
+
+    <string name="Red"><![CDATA[<b><font color=#FF0000> INCORRECT!</b>]]></string>
+    <string name="Blue"><![CDATA[<b><font color=#0000FF>  CORRECT!</b>]]></string>
+
+
+
+</resources>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="org.nthree.knowmychicago.Question_Ten">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/chicago"
+            android:background="@drawable/boarder_style2"
+            android:cropToPadding="true"
+            android:padding="2dp"
+            />
+
+
+        <TextView
+            android:id="@+id/Q10"
+            style="@style/HeaderQuestions"
+            android:layout_below="@id/logo"
+            android:text="@string/question10"
+            android:layout_marginBottom="10dp"/>
+
+
+       <CheckBox
+           android:id="@+id/checkbox1"
+           android:layout_below="@id/Q10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="The Windy City"/>
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_below="@id/Q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="The Second City"/>
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_below="@id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The City of the Big Shoulders"/>
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_below="@id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/checkbox3"
+            android:text="Chi-Town"/>
+
+        <ImageView
+            android:id="@+id/chicago"
+            android:layout_height="300dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/chicago_landscape"
+            android:padding="2dp"
+            android:cropToPadding="true"
+            android:background="@drawable/boarder_style2"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/checkbox4"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_below="@id/chicago"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons2"
+            android:layout_marginTop="20dp"
+            android:text="Back"
+            android:onClick="PreviousPage"
+
+            />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/chicago"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttons2"
+            android:layout_marginTop="20dp"
+            android:onClick="NextPage"
+            android:text="Next" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.nthree.knowmychicago.Question_Three">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/chicago"
+            android:background="@drawable/boarder_style2"
+            android:cropToPadding="true"
+            android:padding="2dp"
+            />
+
+
+        <TextView
+            android:id="@+id/Q3"
+            style="@style/HeaderQuestions"
+            android:layout_below="@id/logo"
+            android:text="@string/question3"
+            android:layout_marginBottom="10dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Q3"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/question3_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lucy"
+                android:layout_marginBottom="10dp"
+                android:onClick="AnswerThree"/>
+
+            <RadioButton
+                android:id="@+id/question3_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mary"
+                android:layout_marginBottom="10dp"
+                android:onClick="AnswerThree"/>
+
+
+            <!-- Correct Answer -->
+            <RadioButton
+                android:id="@+id/question3_radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sue"
+                android:layout_marginBottom="10dp"
+                android:onClick="AnswerThree"/>
+
+            <RadioButton
+                android:id="@+id/question3_radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eve"
+                android:layout_marginBottom="10dp"
+                android:onClick="AnswerThree"/>
+
+        </RadioGroup>
+
+
+        <ImageView
+            android:id="@+id/chicago"
+            android:layout_height="150dp"
+            android:layout_width="240dp"
+            android:src="@drawable/sue"
+            android:padding="2dp"
+            android:cropToPadding="true"
+            android:background="@drawable/boarder_style2"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/Q3"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:src="@drawable/field_museum"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/chicago"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:cropToPadding="true"
+            android:background="@drawable/boarder_style2"/>
+
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_below="@id/question3"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons2"
+            android:layout_marginTop="200dp"
+            android:text="Back"
+            android:onClick="PreviousPage"
+
+            />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/question3"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/buttons2"
+            android:onClick="NextPage"
+            android:text="Next" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
